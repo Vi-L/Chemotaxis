@@ -2,7 +2,7 @@ Predator[] predators = new Predator[1];
 Prey[] preys = new Prey[1];
 
 void setup() {
-  size(750, 750);
+  size(650, 650);
   for (int i = 0; i < predators.length; i++) {
     predators[i] = new Predator(375, 375);
   }
